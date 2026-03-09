@@ -15,11 +15,11 @@
         </Grid.ColumnDefinitions>
         <TextBox x:Name="resultTextBox" Grid.Column="0" Margin="5" TextWrapping="Wrap" FontFamily="Consolas"/>
         <StackPanel Grid.Column="1" Margin="5" >
-            <Button x:Name="readFileButton" Content="Inlezen" Margin="0 0 0 10" Height="30" Click="readFileButton_Click"/>
-            <Button x:Name="readDialogButton" Content="Inlezen / dialoogvenster"  Margin="0 0 0 10" Height="30" Click="readDialogButton_Click"/>
-            <Button x:Name="readDictionaryButton" Content="Inlezen / dictionary"  Margin="0 0 0 10" Height="30" Click="readDictionaryButton_Click"/>
-            <Button x:Name="writeButton" Content="Wegschrijven / dictionary"  Margin="0 0 0 10" Height="30" IsEnabled="False" Click="writeButton_Click"/>
-            <Button x:Name="addButton" Content="Toevoegen" Margin="0 0 0 10" Width="120" Height="40" Click="addButton_Click"/>
+            <Button x:Name="readFileButton" Content="Inlezen" Margin="0 0 0 10" Height="30" Click="readFileButon_Click"/>
+            <Button x:Name="readDialogButton" Content="Inlezen / dialoogvenster"  Margin="0 0 0 10" Height="30" Click="readDialogButon_Click"/>
+            <Button x:Name="readDictionaryButton" Content="Inlezen / dictionary"  Margin="0 0 0 10" Height="30" Click="readDictionaryButon_Click"/>
+            <Button x:Name="writeButton" Content="Wegschrijven / dictionary"  Margin="0 0 0 10" Height="30" IsEnabled="False" Click="writeButon_Click"/>
+            <Button x:Name="addButton" Content="Toevoegen" Margin="0 0 0 10" Width="120" Height="40" Click="addButon_Click"/>
             <TextBlock Height="19" Text="Naam" Margin="0 0 0 10" FontStyle="Italic" FontSize="14"/>
             <TextBox x:Name="nameTextBox" Height="25" Margin="0 0 0 10" Text="John Doe"/>
             <TextBlock Height="25" Text="E-mailadres" Margin="0 0 0 10" FontStyle="Italic" FontSize="14"/>
